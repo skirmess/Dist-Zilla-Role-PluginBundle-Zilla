@@ -50,7 +50,7 @@ This role makes the `zilla` object available and adds the `log`,
 This allows you to use the same logging procedure in your bundle that plugins
 use.
 
-If you use [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/pod/Dist::Zilla::Role::PluginBundle::Easy) you have to import these
+If you use [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/pod/Dist%3A%3AZilla%3A%3ARole%3A%3APluginBundle%3A%3AEasy) you have to import these
 two roles with two separate calls to `with` because both roles declare the
 name attribute.
 
@@ -85,5 +85,5 @@ This is free software, licensed under:
 
 # SEE ALSO
 
-[Dist::Zilla::Role::PluginBundle](https://metacpan.org/pod/Dist::Zilla::Role::PluginBundle),
-[Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/pod/Dist::Zilla::Role::PluginBundle::Easy)
+[Dist::Zilla::Role::PluginBundle](https://metacpan.org/pod/Dist%3A%3AZilla%3A%3ARole%3A%3APluginBundle),
+[Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/pod/Dist%3A%3AZilla%3A%3ARole%3A%3APluginBundle%3A%3AEasy)
