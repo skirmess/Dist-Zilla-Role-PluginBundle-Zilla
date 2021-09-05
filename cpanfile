@@ -14,11 +14,16 @@ on configure => sub {
 };
 
 on test => sub {
+    requires 'Carp';
+    requires 'Cwd';
     requires 'Dist::Zilla::Role::PluginBundle::Easy';
+    requires 'Exporter', '5.57';
+    requires 'File::Basename';
+    requires 'File::Path';
+    requires 'File::Spec';
     requires 'Moose';
     requires 'Test::DZil';
     requires 'Test::More', '0.88';
-    requires 'Test::TempDir::Tiny';
     requires 'lib';
 };
 

@@ -3,11 +3,16 @@ abstract: 'adds the zilla object and the logger to your bundles'
 author:
   - 'Sven Kirmess <sven.kirmess@kzone.ch>'
 build_requires:
+  Carp: '0'
+  Cwd: '0'
   Dist::Zilla::Role::PluginBundle::Easy: '0'
+  Exporter: '5.57'
+  File::Basename: '0'
+  File::Path: '0'
+  File::Spec: '0'
   Moose: '0'
   Test::DZil: '0'
   Test::More: '0.88'
-  Test::TempDir::Tiny: '0'
   lib: '0'
   perl: '5.006'
 configure_requires:
